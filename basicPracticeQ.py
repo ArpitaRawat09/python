@@ -1,3 +1,24 @@
+# Practice Question
+
+fahrenheit = float(input("Enter temperature in fahrenheit :- "))
+celsius = (fahrenheit - 32) * 5 / 9
+
+print(f"Temperature: {celsius:.1f}°C")
+
+if celsius < 0:
+    print("Freezing 🥶")
+elif 0 <= celsius < 10:
+    print("Very Cold 🧥")
+elif 10 <= celsius < 20:
+    print("Cold ❄️")
+elif 20 <= celsius < 30:
+    print("Pleasant 😊")
+elif 30 <= celsius < 40:
+    print("Hot ☀️")
+else:
+    print("Very Hot 🔥")
+
+
 # Answer True or False
 
 # Assignment Questions
@@ -29,10 +50,18 @@
 # Assignment 3
 # Question 1
 
-num1 = int(input("Enter first number :- "))
-num2 = int(input("Enter second number :- "))
+# num1 = int(input("Enter first number :- "))
+# num2 = int(input("Enter second number :- "))
 
-if num1>num2:
-    print("num1 is greater than num2")
-else:
-    print("num2 is greater than num1")
+# if num1>num2:
+#     print("num1 is greater than num2")
+# else:
+#     print("num2 is greater than num1")
+
+# Question 2
+
+# gender = str(input("Enter the Gender :- "))
+# if gender == "female":
+#     print("Good Morning Mam.....")
+# else:
+#     print("Good Morning Sir.....")
