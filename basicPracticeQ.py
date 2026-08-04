@@ -1,22 +1,34 @@
 # Practice Question
 
-fahrenheit = float(input("Enter temperature in fahrenheit :- "))
-celsius = (fahrenheit - 32) * 5 / 9
+# fahrenheit = float(input("Enter temperature in fahrenheit :- "))
+# celsius = (fahrenheit - 32) * 5 / 9
 
-print(f"Temperature: {celsius:.1f}°C")
+# print(f"Temperature: {celsius:.1f}°C")
 
-if celsius < 0:
-    print("Freezing 🥶")
-elif 0 <= celsius < 10:
-    print("Very Cold 🧥")
-elif 10 <= celsius < 20:
-    print("Cold ❄️")
-elif 20 <= celsius < 30:
-    print("Pleasant 😊")
-elif 30 <= celsius < 40:
-    print("Hot ☀️")
+# if celsius < 0:
+#     print("Freezing 🥶")
+# elif 0 <= celsius < 10:
+#     print("Very Cold 🧥")
+# elif 10 <= celsius < 20:
+#     print("Cold ❄️")
+# elif 20 <= celsius < 30:
+#     print("Pleasant 😊")
+# elif 30 <= celsius < 40:
+#     print("Hot ☀️")
+# else:
+#     print("Very Hot 🔥")
+
+
+char = str(input("Enter the character :- "))
+a = ord(char)
+if 65 <= a <= 90:
+    print("UpperCase character")
+elif 90 <= a <= 122:
+    print("LowerCase character")
+elif 33 <= a <= 47 or 58 <= a <= 64 or 91 <= a <= 96 or 123 <= a <= 126:
+    print("Special character")
 else:
-    print("Very Hot 🔥")
+    print("Not Found")
 
 
 # Answer True or False
