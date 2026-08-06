@@ -1,22 +1,37 @@
 # Basic Examples for Loops practice
 
+# Palindrome Question
+
+num = 1232
+cpy = num
+rev = 0
+while num > 0:
+    rem = num % 10
+    rev = rev * 10 + rem
+    num = num // 10
+if cpy == rev:
+    print("Palindrome number")
+else:
+    print("Not Palindrome number")
+
+
 # Login System
 
-correct_name = "admin"
-correct_password = 1234
+# correct_name = "admin"
+# correct_password = 1234
 
-for i in range(3):
-    name = input("Enter Username: ")
-    password = int(input("Enter Password: "))
+# for i in range(3):
+#     name = input("Enter Username: ")
+#     password = int(input("Enter Password: "))
 
-    if name == correct_name and password == correct_password:
-        print("✅ Login Successful")
-        break
-    else:
-        print("❌ Invalid Username or Password")
+#     if name == correct_name and password == correct_password:
+#         print("✅ Login Successful")
+#         break
+#     else:
+#         print("❌ Invalid Username or Password")
 
-else:
-    print("🔒 Account Locked")
+# else:
+#     print("🔒 Account Locked")
 
 
 # for i in range(1, 21):
