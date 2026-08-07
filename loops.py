@@ -1,18 +1,35 @@
 # Basic Examples for Loops practice
 
+# count prime number
+
+n = int(input("Enter the number :- "))
+# count = 0
+
+for i in range(1, n + 1):
+    if n % i == 0:
+        print(i)
+        # count = count + 1
+        # print(count)
+
+# if count == 2:
+#     print("Number is prime")
+# else:
+#     print("Number is not Prime")
+
+
 # Palindrome Question
 
-num = 1232
-cpy = num
-rev = 0
-while num > 0:
-    rem = num % 10
-    rev = rev * 10 + rem
-    num = num // 10
-if cpy == rev:
-    print("Palindrome number")
-else:
-    print("Not Palindrome number")
+# num = 1232
+# cpy = num
+# rev = 0
+# while num > 0:
+#     rem = num % 10
+#     rev = rev * 10 + rem
+#     num = num // 10
+# if cpy == rev:
+#     print("Palindrome number")
+# else:
+#     print("Not Palindrome number")
 
 
 # Login System
