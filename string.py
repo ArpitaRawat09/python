@@ -1,11 +1,10 @@
 # Palindrome Question
 
-name = "nama"
+name = "naman"
 rev = ""
-cpy = name
 for i in range(len(name) - 1, -1, -1):
     rev = rev + name[i]
-if cpy == rev:
+if name == rev:
     print("String is Palindrome")
 else:
     print("String is not Palindrome")
