@@ -2,14 +2,26 @@
 # Find mean value
 
 
-nums = [3, 11, 4, 6, 8, 9, 6]
-sum = 0
-for i in nums:
-    sum += i
-mean = sum // len(nums)  
-print("mean value is = " , mean)
+# nums = [3, 11, 4, 6, 8, 9, 6]
+# sum = 0
+# for i in nums:
+#     sum += i
+# mean = sum // len(nums)
+# print("mean value is = " , mean)
 
 
+# Largest number
+
+nums = [123, 896, 454, 988, 768, 973]
+
+largest = nums[0]
+idx = 0
+
+for i in range(len(nums)):
+    if nums[i] > largest:
+        largest = nums[i]
+        idx = i
+print(f"Largest numbers is {largest} and index is {idx}")
 
 
 # Print +ve and -ve number in the list
