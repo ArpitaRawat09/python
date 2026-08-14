@@ -12,16 +12,33 @@
 
 # Largest number
 
+# nums = [123, 896, 454, 988, 768, 973]
+
+# largest = nums[0]
+# idx = 0
+
+# for i in range(len(nums)):
+#     if nums[i] > largest:
+#         largest = nums[i]
+#         idx = i
+# print(f"Largest numbers is {largest} and index is {idx}")
+
+
+# Second largest number
+
 nums = [123, 896, 454, 988, 768, 973]
 
 largest = nums[0]
-idx = 0
+secLargest = nums[1]
 
-for i in range(len(nums)):
+for i in range(2, len(nums)):
     if nums[i] > largest:
+        secLargest = largest
         largest = nums[i]
-        idx = i
-print(f"Largest numbers is {largest} and index is {idx}")
+    elif nums[i] > secLargest:
+        secLargest = nums[i]
+
+print(f"Second Largest value is {secLargest}")
 
 
 # Print +ve and -ve number in the list
