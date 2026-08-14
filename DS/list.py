@@ -1,30 +1,31 @@
 # Questions
+# Find mean value
+
+
+nums = [3, 11, 4, 6, 8, 9, 6]
+sum = 0
+for i in nums:
+    sum += i
+mean = sum // len(nums)  
+print("mean value is = " , mean)
+
+
+
 
 # Print +ve and -ve number in the list
 
-num = [10,-23,43,76,-90,-2,-34]
-count = 0
+# num = [10,-23,43,76,-90,-2,-34]
+# count = 0
 
-for i in num:
-    if i <= 0:
-        count = count + 1
-        # print(i ," is negative")
-    # else:
-        # print(i," is positive")  
-
-        
-print(count)  
+# for i in num:
+#     if i <= 0:
+#         count = count + 1
+# print(i ," is negative")
+# else:
+# print(i," is positive")
 
 
-
-
-
-
-
-
-
-
-
+# print(count)
 
 
 # # create a list
