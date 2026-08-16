@@ -34,6 +34,8 @@ print(d1)
 # for i in dictonary:
 #     print(dictonary[i])
 
+
+# Methods 
 # dictonary.update({"city":"Indore"})
 # x = dictonary.values()
 # print(x)
