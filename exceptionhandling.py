@@ -8,9 +8,12 @@ a = int(input("enter number :- "))
 
 try:
     print(10 / a)
-except ZeroDivisionError:
-    print("Sorry you can't divide by 0")
-    
+except Exception as err:
+    print(f"Sorry you can't divide by 0 {err}")
+else:
+    print("Good there is no exception")
+finally:
+    print("I will run no matter")
 
 print("ok i have done by zero")
 
