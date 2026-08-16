@@ -2,14 +2,17 @@
 
 a = int(input("enter number :- "))
 
-b = (10/a)
-print(b)
+# b = (10/a)
+# print(b)
 
 
-# how to fix it 
+try:
+    print(10 / a)
+except ZeroDivisionError:
+    print("Sorry you can't divide by 0")
+    
 
-
-
+print("ok i have done by zero")
 
 
 # syntax error
@@ -17,16 +20,9 @@ print(b)
 # x = [1,2,3,4,5]
 
 # for i in x:
-# print(i) 
+# print(i)
 
 
 # indentation error
 # for i in x
 #     print(i)
-
-
-
-
-
-
-
